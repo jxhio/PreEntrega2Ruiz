@@ -1,0 +1,91 @@
+
+
+/* header */
+.navbar{
+    background-color: #16324f;
+}
+
+/* footer */
+
+footer{
+    background-color: #16324f;
+    padding-top: 10px;
+    height: 100px;
+}
+a {
+    color: #fff !important;
+}
+a:hover {
+    color: #29A6FF !important;
+}
+
+footer img {
+    height: 90px;
+}
+
+footer i{
+    margin: 5px;
+    margin-top: 10px;
+}
+
+.nav-item {
+    color: #fff;
+}
+
+/* ¿Qué que es finti? */
+
+main{
+    padding: 0px 50px !important;
+    height: 800px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: #2A84C7 !important;
+}
+
+button:hover {
+    color: #2A628F !important;
+    background-color: #16324F !important;
+}
+
+/* contacto */
+
+.evniar-form {
+    margin-top: 10px !important;
+}
+
+.contacto-form{
+    width: 70%;;
+    
+}
+.card{
+    background-color: #2A628F;
+    margin: 30px;
+    padding-top: 20px;
+}
+.card-body p{
+    font-size: x-large;
+    color: #fff;
+}
+
+.card-body h2{
+    color: #fff;
+}
+
+label{
+    color: #fff;
+}
+
+.card img{
+    height: 250px;
+}
+
+.carousel p {
+    color: black;
+}
+.carousel h5 {
+    color: black;
+}
