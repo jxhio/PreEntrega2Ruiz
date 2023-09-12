@@ -18,32 +18,46 @@
 
     <!-- navbar -->
 
-    <nav class="navbar navbar-expand-md navbar-dark">
-        <div class="container-fluid">
+    <nav class="navbar navbar-dark bg-body-tertiary fixed-top">
 
-            <a class="navbar-brand" href="../index.html">Finti</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <div class="container-fluid">
+            
+            <a class="navbar-brand" href="#">Finti</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse d-flex justify-content-end" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../index.html">¿Qué es Finti?</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pasos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./testimonios.html">Testimonios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./cotiza.html">Cotiza</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contacto.html">Contacto</a>
-                    </li>
-                </ul>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Finti</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">¿Qué es Finti?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pasos.html">Pasos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./testimonios.html">Testimonios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./cotiza.html">Cotiza</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+
+                    </ul>
+                    
+                </div>
             </div>
         </div>
     </nav>
@@ -54,7 +68,7 @@
 
         <div class="row d-flex align-items-center justify-content-center">
 
-                <div class="col-3 card">  
+                <div class="col-12 col-md-3 card">  
                     <img src="/Multimedia/undraw_online_everywhere_re_n3lr.svg" class="card-img-top" alt="cotiza">
                     <div class="card-body">
                         <h2 class="card-title">Cotiza</h2>
@@ -62,7 +76,7 @@
                     </div>
                 </div>
 
-                <div class="col-3 card">
+                <div class="col-12 col-md-3 card">
                     <img src="/Multimedia/undraw_growth_analytics_re_pyxf.svg" class="card-img-top" alt="compara">
                     
                     <div class="card-body">
@@ -71,7 +85,7 @@
                     </div>
                 </div>
 
-                <div class="col-3 card">
+                <div class="col-12 col-md-3 card">
                     <img src="/Multimedia/undraw_publish_article_re_3x8h.svg" class="card-img-top" alt="contrata">
                     <div class="card-body">
                         <h2 class="card-title">Contrata</h2>

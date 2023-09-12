@@ -3,7 +3,17 @@
 /* header */
 .navbar{
     background-color: #16324f;
+    width: 100%;
 }
+
+.offcanvas {
+    background-color: #16324F;
+}
+
+.offcanvas h5{
+    color: #fff;
+}
+
 
 /* footer */
 
@@ -20,36 +30,46 @@ a:hover {
 }
 
 footer img {
-    height: 90px;
+    height: 10vh;
 }
 
 footer i{
     margin: 5px;
-    margin-top: 10px;
 }
 
 .nav-item {
     color: #fff;
 }
 
-/* ¿Qué que es finti? */
+/* main */
 
 main{
     padding: 0px 50px !important;
-    height: 800px !important;
+    height: 100vh !important;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 button {
-    background-color: #2A84C7 !important;
+    background-color: #16324F !important;
 }
 
 button:hover {
-    color: #2A628F !important;
-    background-color: #16324F !important;
+    color:  #2A628F!important;
+    background-color: #2A84C7 !important;
 }
+
+/* ¿Qué es Finti? */
+
+.q-e-finti {
+    width: 100vw;
+}
+
+.q-e-finti img{
+    height: 50vh;
+}
+
 
 /* contacto */
 
