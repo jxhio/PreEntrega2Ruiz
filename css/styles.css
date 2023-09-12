@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/* Paleta de colores */
+/* header */
+.navbar {
+  background-color: #16324F;
+  width: 100%;
+}
+
+.offcanvas {
+  background-color: #16324F;
+}
+.offcanvas h5 {
+  color: #FFFFFF;
+}
+
+/* footer */
+footer {
+  background-color: #16324F;
+  padding-top: 10px;
+  height: 100px;
+}
+
+a {
+  color: #fff !important;
+}
+
+a:hover {
+  color: #29A6FF !important;
+}
+
+footer img {
+  height: 10vh;
+}
+footer i {
+  margin: 5px;
+}
+
+.nav-item {
+  color: #fff;
+}
+
+/* main */
+main {
+  padding: 0px 50px !important;
+  min-height: 90vh !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  background-color: #16324F;
+}
+
+.btn:hover {
+  color: #2A628F;
+  background-color: #2A84C7;
+}
+
+/* ¿Qué es Finti? */
+.q-e-finti {
+  width: 100vw;
+}
+.q-e-finti img {
+  height: 50vh;
+}
+
+/* testimonios */
+/* contacto */
+.evniar-form {
+  margin-top: 10px !important;
+}
+
+.contacto-form {
+  width: 70%;
+}
+
+.card {
+  background-color: #2A628F;
+  margin: 30px;
+  padding-top: 20px;
+}
+
+.card-body p {
+  font-size: x-large;
+  color: #fff;
+}
+.card-body h2 {
+  color: #fff;
+}
+
+label {
+  color: #fff;
+}
+
+.card img {
+  height: 250px;
+}
+
+.carousel p {
+  color: black;
+}
+.carousel h5 {
+  color: black;
+}
+
+/*# sourceMappingURL=styles.css.map */
